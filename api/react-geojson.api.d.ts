@@ -1,5 +1,5 @@
-import { G as GeoJSONFeatureState, a as GeoJSONLayerState, b as GeoJSONFeatureData } from './GeoJSONSeqParser-Cw0Fe-zP.js';
-export { c as GeoJSONDefaults, d as GeoJSONFeatureFingerPrint, e as GeoJSONGeometry, f as GeoJSONHitTestResult, g as GeoJSONLayerStyle, h as GeoJSONParser, i as GeoJSONSeqParser, j as GeoJSONTileRenderer, L as LonLat, k as argbToCss, l as colorAlpha, m as colorArgb, n as colorBlue, o as colorGreen, p as colorRed, q as colorRgb, r as createGeoJSONFeature } from './GeoJSONSeqParser-Cw0Fe-zP.js';
+import { G as GeoJSONFeatureState, a as GeoJSONLayerState, b as GeoJSONFeatureData } from './GeoJSONSeqParser-7GBvl5IV.js';
+export { c as GeoJSONDefaults, d as GeoJSONFeatureFingerPrint, e as GeoJSONGeometry, f as GeoJSONHitTestResult, g as GeoJSONLayerStyle, h as GeoJSONParser, i as GeoJSONSeqParser, j as GeoJSONTileRenderer, L as LonLat, k as argbToCss, l as colorAlpha, m as colorArgb, n as colorBlue, o as colorGreen, p as colorRed, q as colorRgb, r as createGeoJSONFeature } from './GeoJSONSeqParser-7GBvl5IV.js';
 import React from 'react';
 import '@mapconductor/js-sdk-core';
 
@@ -34,4 +34,5 @@ interface GeoJSONFeaturesProps {
 }
 declare function GeoJSONFeatures({ states }: GeoJSONFeaturesProps): null;
 
-export { GeoJSONFeature, GeoJSONFeatureData, type GeoJSONFeatureProps, GeoJSONFeatureState, GeoJSONFeatures, type GeoJSONFeaturesProps, GeoJSONLayer, type GeoJSONLayerProps, GeoJSONLayerState };
+export { GeoJSONFeature, GeoJSONFeatureData, GeoJSONFeatureState, GeoJSONFeatures, GeoJSONLayer, GeoJSONLayerState };
+export type { GeoJSONFeatureProps, GeoJSONFeaturesProps, GeoJSONLayerProps };
