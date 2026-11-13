@@ -4,6 +4,12 @@
 
 MapConductor React SDK の GeoJSON レイヤー拡張です。GeoJSON のフィーチャ(ポイント・ライン・ポリゴン。穴付きポリゴンにも対応)を、任意のプロバイダのマップビュー(`react-for-googlemaps`、`react-for-maplibre`、`react-for-here` など)の中にタイル化されたオーバーレイとして描画し、フィーチャ単位のスタイル指定とクリックのヒットテストをサポートします。Web と、同梱の Android/iOS モジュールを通じて React Native の両方で動作します。
 
+## デモ
+
+[![GeoJSON で描いた東京の鉄道路線](https://raw.githubusercontent.com/MapConductor/react-geojson/main/docs/images/demo.jpg)](https://demo-react.mapconductor.com/maplibre/geojson-layer/en)
+
+[ライブデモ](https://demo-react.mapconductor.com/maplibre/geojson-layer/en)では、このパッケージで東京の鉄道路線を GeoJSON から描いています。線をタップすると属性を表示します。プロバイダは画面上部で切り替えられます。コードは下のクイックスタートにあります。
+
 ## インストール
 
 ```shell
