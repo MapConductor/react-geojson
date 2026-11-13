@@ -8,6 +8,12 @@ any provider map view (`react-for-googlemaps`, `react-for-maplibre`,
 `react-for-here`, …), with per-feature styling and click hit-testing. Works on
 the web and, through the bundled Android/iOS modules, in React Native.
 
+## Demo
+
+[![Tokyo railway lines drawn from GeoJSON](https://raw.githubusercontent.com/MapConductor/react-geojson/main/docs/images/demo.jpg)](https://demo-react.mapconductor.com/maplibre/geojson-layer/en)
+
+The [live demo](https://demo-react.mapconductor.com/maplibre/geojson-layer/en) draws Tokyo's railway lines from GeoJSON with this package; tap a line to see its properties. The provider can be switched at the top of the page. The code is in the Quick start below.
+
 ## Installation
 
 ```shell

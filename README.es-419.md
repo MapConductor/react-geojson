@@ -4,6 +4,12 @@
 
 Extensión de capa GeoJSON para el SDK de React de MapConductor. Renderiza features de GeoJSON (puntos, líneas, polígonos — incluidos los agujeros) como una superposición teselada dentro de cualquier vista de mapa de proveedor (`react-for-googlemaps`, `react-for-maplibre`, `react-for-here`, …), con estilos por feature y hit-testing de clics. Funciona en la web y, mediante los módulos de Android/iOS incluidos, en React Native.
 
+## Demostración
+
+[![Líneas de tren de Tokio dibujadas desde GeoJSON](https://raw.githubusercontent.com/MapConductor/react-geojson/main/docs/images/demo.jpg)](https://demo-react.mapconductor.com/maplibre/geojson-layer/en)
+
+La [demo en vivo](https://demo-react.mapconductor.com/maplibre/geojson-layer/en) dibuja con este paquete las líneas de tren de Tokio desde GeoJSON; toca una línea para ver sus propiedades. El proveedor se cambia en la parte superior de la página. El código está en el inicio rápido de abajo.
+
 ## Instalación
 
 ```shell
